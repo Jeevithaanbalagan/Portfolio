@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "siteTitle": "Jeevitha A — CyberSec Portfolio",
+    "favicon": "🛡️"
+  },
+  "hero": {
+    "name": "Jeevitha A",
+    "role": "Cyber Security Student",
+    "tagline": "SOC Analyst in Training · Threat Hunter · CTF Player",
+    "statusBadge": "Available for Opportunities"
+  },
+  "about": {
+    "prompt": "whoami",
+    "paragraphs": [
+      "Cybersecurity enthusiast pursuing a BCA in Cyber Security at Hindustan University (GPA: 9.09), with hands-on experience in SOC operations and real-time incident response.",
+      "Passionate about threat detection, log analysis, and ethical hacking — especially vulnerability assessment and red teaming.",
+      "I aim to master both defense and offense to become a well-rounded cyber professional — bridging the gap between the blue team and the red team.",
+      "Active CTF player on TryHackMe (NilaHack) and HackTheBox. Certified in multiple cybersecurity domains and constantly sharpening my skills on real-world platforms."
+    ]
+  },
+  "education": [
+    {
+      "institution": "Hindustan University",
+      "degree": "Bachelor of Computer Applications (Cyber Security)",
+      "duration": "2023 – 2026",
+      "score": "GPA: 9.09",
+      "status": "current"
+    },
+    {
+      "institution": "Christ King Girls Hr Sec School",
+      "degree": "Computer Applications (HSC)",
+      "duration": "2022 – 2023",
+      "score": "90%",
+      "status": "completed"
+    }
+  ],
+  "skills": {
+    "securityDomains": [
+      "SOC Operations",
+      "Threat Detection",
+      "Log Analysis",
+      "Incident Response",
+      "Vulnerability Assessment",
+      "Red Teaming",
+      "Ethical Hacking",
+      "Cyber Forensics",
+      "OSINT",
+      "Steganography",
+      "Cryptography",
+      "Reverse Engineering",
+      "Web Application Security"
+    ],
+    "tools": [
+      "Burp Suite",
+      "Wireshark",
+      "Metasploit",
+      "John the Ripper",
+      "Snort",
+      "Nmap",
+      "SIEM (Sumo Logic)",
+      "Splunk"
+    ],
+    "technologies": [
+      "Python",
+      "Linux / Bash",
+      "Networking",
+      "NLP / ML",
+      "HTML / CSS",
+      "Git / GitHub"
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj-001",
+      "title": "Real-Time ML-Based Log Anomaly Detection",
+      "status": "ongoing",
+      "shortDescription": "End-to-end pipeline that ingests raw system logs, performs NLP preprocessing, and applies machine learning for real-time anomaly scoring with live dashboard visualisation.",
+      "features": [
+        "Raw log ingestion and NLP preprocessing pipeline",
+        "ML-based real-time anomaly scoring engine",
+        "Interactive dashboards for trends and security insights",
+        "Rapid threat detection and alert visualization"
+      ],
+      "techStack": [
+        "Python",
+        "Machine Learning",
+        "NLP",
+        "SIEM",
+        "Log Analysis",
+        "Dashboard"
+      ],
+      "github": "https://github.com/EswaranS-06/ML-UEBA.git",
+      "liveLink": null
+    },
+    {
+      "id": "proj-002",
+      "title": "Automated Web VAPT Reporting Tool",
+      "status": "completed",
+      "shortDescription": "Full-stack web platform to manage vulnerability assessments and auto-generate professional, audit-ready security reports with centralized vuln knowledge base.",
+      "features": [
+        "Centralized vulnerability knowledge base with severity ratings",
+        "Custom tester observations without overwriting standard data",
+        "Auto-generated executive summaries and action plans",
+        "PDF and Docs export for audit-ready reports"
+      ],
+      "techStack": [
+        "Python",
+        "Web Development",
+        "VAPT",
+        "PDF Generation",
+        "Security Reporting"
+      ],
+      "github": "https://github.com/EswaranS-06/EVIDEX.git",
+      "liveLink": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "HTC",
+      "role": "Cyber Security Trainee",
+      "duration": "2025 – 2026",
+      "type": "internship",
+      "highlights": [
+        "Immersed in Security Operations Center (SOC) workflows",
+        "Real-time threat monitoring and incident response",
+        "Gained expertise in log analysis and SIEM tools"
+      ]
+    },
+    {
+      "company": "Simon and Sons Pvt Ltd",
+      "role": "MS Word Intern — Malay Court Files",
+      "duration": "May – Jun 2024",
+      "type": "internship",
+      "highlights": [
+        "Corrected legal file formatting and errors",
+        "Designed certificates and cover pages professionally"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "TCS HackQuest CTF",
+      "detail": "Cleared 2 rounds — solved JavaScript deobfuscation, DoH traffic analysis, Base64 decoding, and API security testing challenges.",
+      "tag": "CTF"
+    },
+    {
+      "title": "PEC Capture The Flag (Solo)",
+      "detail": "Secured 7th place — demonstrated skills in cryptography, OSINT, steganography, and reverse engineering.",
+      "tag": "CTF · 7th Place"
+    },
+    {
+      "title": "Cybertron CTF",
+      "detail": "Ranked #34 with 4430 points in a Jeopardy-style 30-hour CTF event.",
+      "tag": "CTF · #34 · 4430 pts"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "THM Advent Cyber",
+      "issuer": "TryHackMe",
+      "type": "practical"
+    },
+    {
+      "name": "Introduction to Cybersecurity",
+      "issuer": "Cisco NetAcad",
+      "type": "foundational"
+    },
+    {
+      "name": "Sumo Logic Fundamentals",
+      "issuer": "Sumo Logic",
+      "type": "tool"
+    },
+    {
+      "name": "Networking Basics",
+      "issuer": "Cisco NetAcad",
+      "type": "foundational"
+    },
+    {
+      "name": "Ethical Hacking",
+      "issuer": "MyCaptain Academy",
+      "type": "practical"
+    },
+    {
+      "name": "Cybersecurity Analyst",
+      "issuer": "Forage",
+      "type": "virtual-experience"
+    }
+  ],
+  "writeups": [
+    {
+      "title": "DoH Traffic Analysis — TCS HackQuest Writeup",
+      "tags": [
+        "DNS-over-HTTPS",
+        "Traffic Analysis",
+        "Wireshark"
+      ],
+      "status": "coming-soon",
+      "link": null
+    },
+    {
+      "title": "JavaScript Deobfuscation Techniques",
+      "tags": [
+        "JavaScript",
+        "Reverse Engineering",
+        "CTF"
+      ],
+      "status": "coming-soon",
+      "link": null
+    },
+    {
+      "title": "Web VAPT: Automating Vulnerability Reports",
+      "tags": [
+        "VAPT",
+        "Python",
+        "Automation"
+      ],
+      "status": "coming-soon",
+      "link": null
+    }
+  ],
+  "contact": {
+    "email": "jeevithajeevi1730@gmail.com",
+    "phone": "+91 7845463730",
+    "location": "Chennai, Tamil Nadu",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Jeevithaanbalagan",
+        "handle": "Jeevithaanbalagan"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/jeevitha-anbalagan-4430492b6/",
+        "handle": "jeevitha-anbalagan"
+      },
+      {
+        "label": "TryHackMe",
+        "url": "https://tryhackme.com/p/NilaHack",
+        "handle": "NilaHack"
+      },
+      {
+        "label": "HackTheBox",
+        "url": "https://hackthebox.com/dashboard",
+        "handle": "HTB Dashboard"
+      }
+    ]
+  }
+}
