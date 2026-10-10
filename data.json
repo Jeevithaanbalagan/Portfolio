@@ -1,30 +1,31 @@
 {
   "meta": {
-    "siteTitle": "Jeevitha A — CyberSec Portfolio",
+    "siteTitle": "Jeevitha A | Cybersecurity Analyst | SOC Analyst | VAPT",
+    "description": "Cybersecurity graduate focused on SOC operations, log analysis, alert triage, vulnerability assessment, and web application security.",
     "favicon": "🛡️"
   },
   "hero": {
     "name": "Jeevitha A",
-    "role": "Cyber Security Student",
-    "tagline": "SOC Analyst in Training · Threat Hunter · CTF Player",
+    "role": "Cybersecurity Analyst | SOC Analyst | VAPT",
+    "tagline": "Security Monitoring • Alert Triage • Log Analysis • Web Application Security",
     "statusBadge": "Available for Opportunities"
   },
   "about": {
     "prompt": "whoami",
     "paragraphs": [
-      "Cybersecurity enthusiast pursuing a BCA in Cyber Security at Hindustan University (GPA: 9.09), with hands-on experience in SOC operations and real-time incident response.",
-      "Passionate about threat detection, log analysis, and ethical hacking — especially vulnerability assessment and red teaming.",
-      "I aim to master both defense and offense to become a well-rounded cyber professional — bridging the gap between the blue team and the red team.",
-      "Active CTF player on TryHackMe (NilaHack) and HackTheBox. Certified in multiple cybersecurity domains and constantly sharpening my skills on real-world platforms."
+      "I am a Cyber Security graduate with a Bachelor of Computer Applications (BCA) from Hindustan Institute of Technology and Science, graduating with a CGPA of 9.21.",
+      "My cybersecurity interests include security operations, log analysis, threat detection, vulnerability assessment, penetration testing, and web application security.",
+      "During my Cyber Security Internship at Xyberu Pvt Ltd, I worked on security alert monitoring and triage, log analysis, IOC validation, vulnerability assessment, and security reporting.",
+      "I have also developed security-focused projects, including a machine-learning-based log anomaly detection pipeline and an automated Web VAPT reporting tool. My practical learning includes cybersecurity labs, CTF challenges, and continued development of defensive and offensive security skills."
     ]
   },
   "education": [
     {
-      "institution": "Hindustan University",
-      "degree": "Bachelor of Computer Applications (Cyber Security)",
+      "institution": "Hindustan Institute of Technology and Science",
+      "degree": "Bachelor of Computer Applications (BCA), specializing in Cyber Security",
       "duration": "2023 – 2026",
-      "score": "GPA: 9.09",
-      "status": "current"
+      "score": "CGPA: 9.21",
+      "status": "graduated"
     },
     {
       "institution": "Christ King Girls Hr Sec School",
@@ -36,58 +37,73 @@
   ],
   "skills": {
     "securityDomains": [
-      "SOC Operations",
+      "Security Operations Center (SOC)",
+      "Security Alert Triage",
+      "Security Log Analysis",
       "Threat Detection",
-      "Log Analysis",
-      "Incident Response",
+      "Indicators of Compromise (IOC) Validation",
+      "Incident Investigation Fundamentals",
+      "Incident Escalation and Documentation",
+      "Security Monitoring",
+      "False-Positive Analysis",
+      "Network Security Fundamentals",
       "Vulnerability Assessment",
-      "Red Teaming",
-      "Ethical Hacking",
-      "Cyber Forensics",
-      "OSINT",
-      "Steganography",
-      "Cryptography",
-      "Reverse Engineering",
-      "Web Application Security"
+      "Penetration Testing (VAPT)",
+      "Web Application Security",
+      "Risk Rating and Vulnerability Reporting",
+      "OWASP Top 10 Fundamentals",
+      "Reconnaissance and Attack Surface Discovery"
     ],
     "tools": [
+      "Splunk",
+      "Sumo Logic",
       "Burp Suite",
-      "Wireshark",
-      "Metasploit",
-      "John the Ripper",
-      "Snort",
       "Nmap",
-      "SIEM (Sumo Logic)",
-      "Splunk"
+      "Wireshark",
+      "Nuclei",
+      "Osmedeus",
+      "Logstash",
+      "Grafana"
     ],
     "technologies": [
       "Python",
-      "Linux / Bash",
-      "Networking",
-      "NLP / ML",
-      "HTML / CSS",
-      "Git / GitHub"
+      "Linux",
+      "Bash / Shell Scripting",
+      "Networking Fundamentals",
+      "PostgreSQL",
+      "Git and GitHub",
+      "Docker",
+      "Machine Learning",
+      "LightGBM",
+      "Isolation Forest",
+      "Natural Language Processing (NLP)",
+      "BERT-based Log Parsing"
     ]
   },
   "projects": [
     {
       "id": "proj-001",
       "title": "Real-Time ML-Based Log Anomaly Detection",
-      "status": "ongoing",
-      "shortDescription": "End-to-end pipeline that ingests raw system logs, performs NLP preprocessing, and applies machine learning for real-time anomaly scoring with live dashboard visualisation.",
+      "status": "completed",
+      "shortDescription": "Developed a machine-learning-based log anomaly detection pipeline to process security-related log data, identify anomalous patterns, and visualize security insights through dashboards. The pipeline combines log ingestion and parsing, Python-based anomaly classification, PostgreSQL storage, and Grafana visualization.",
       "features": [
-        "Raw log ingestion and NLP preprocessing pipeline",
-        "ML-based real-time anomaly scoring engine",
-        "Interactive dashboards for trends and security insights",
-        "Rapid threat detection and alert visualization"
+        "Log ingestion and parsing using Logstash.",
+        "Python-based log processing, feature engineering, and anomaly classification.",
+        "Machine-learning approaches involving LightGBM and Isolation Forest, where implemented.",
+        "PostgreSQL storage for processed log records.",
+        "Grafana dashboards for visualizing anomalies and security insights.",
+        "Log analysis and anomaly detection to support security monitoring."
       ],
       "techStack": [
         "Python",
+        "Logstash",
+        "PostgreSQL",
+        "Grafana",
         "Machine Learning",
+        "LightGBM",
+        "Isolation Forest",
         "NLP",
-        "SIEM",
-        "Log Analysis",
-        "Dashboard"
+        "Log Analysis"
       ],
       "github": "https://github.com/EswaranS-06/ML-UEBA.git",
       "liveLink": null
@@ -96,7 +112,7 @@
       "id": "proj-002",
       "title": "Automated Web VAPT Reporting Tool",
       "status": "completed",
-      "shortDescription": "Full-stack web platform to manage vulnerability assessments and auto-generate professional, audit-ready security reports with centralized vuln knowledge base.",
+      "shortDescription": "Full-stack web platform to manage vulnerability assessments and auto-generate professional, audit-ready security reports with centralized vulnerability knowledge base.",
       "features": [
         "Centralized vulnerability knowledge base with severity ratings",
         "Custom tester observations without overwriting standard data",
@@ -115,6 +131,19 @@
     }
   ],
   "experience": [
+    {
+      "company": "Xyberu Pvt Ltd",
+      "role": "Cyber Security Intern",
+      "duration": "August 2026 – October 2026",
+      "type": "internship",
+      "highlights": [
+        "Monitored real-time logs and security alerts to identify suspicious activity, unauthorized access attempts, and potential security threats.",
+        "Triage security alerts by analyzing event details, validating indicators of compromise (IOCs), and prioritizing findings according to severity and potential impact.",
+        "Analyzed log data to distinguish true positives from false positives, supporting more accurate investigations and appropriate incident escalation.",
+        "Performed vulnerability assessment and penetration testing (VAPT) on web applications to identify and validate security weaknesses.",
+        "Documented VAPT findings with risk ratings, supporting evidence, and recommended remediation steps for technical teams."
+      ]
+    },
     {
       "company": "HTC",
       "role": "Cyber Security Trainee",
